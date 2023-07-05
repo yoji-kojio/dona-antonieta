@@ -188,31 +188,4 @@ meter {
   100% {
     transform: translate(0px, 0px);
   }
-}
-.upsell-cta-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 38px;
-}
-
-.upsell-cta-button-accept {
-  padding: 38px;
-  background-color: #348535;
-  border-radius: 7px;
-  color: #fff;
-  font-size: 26px;
-  line-height: 150%;
-  font-weight: 700;
-  cursor: pointer;
-  font-family: "Mulish", sans-serif;
-}
-
-.upsell-cta-button-reject {
-  color: #3f3f3f;
-  font-size: 26px;
-  line-height: 150%;
-  cursor: pointer;
-  text-decoration: underline;
-  font-family: "Mulish", sans-serif;
 }/*# sourceMappingURL=style.css.map */
