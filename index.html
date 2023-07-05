@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qual serviço dona Antonieta?</title>
+
+    <script
+      id="upsell-cta-script"
+      src="upsell-cta.js"
+      data-text-accept="Sim, quero aproveitar essa oportunidade"
+      data-text-reject="Não, eu gostaria de recusar essa oferta"
+    ></script>
   </head>
   <body>
     <div class="upsell-page">
@@ -28,19 +35,8 @@
           Quer saber o que dona Antonieta falou?
         </h2>
 
-        <div id="upsell-cta-buttons">
-          <div class="upsell-cta-container">
-            <button id="upsell-accept-button" class="upsell-cta-button-accept">
-              Sim, quero aproveitar essa oportunidade
-            </button>
-  
-            <button id="upsell-reject-button" class="upsell-cta-button-reject">
-              Não, eu gostaria de recusar essa oferta
-            </button>
-          </div>
-        </div>
+        <div id="upsell-cta-buttons"></div>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
