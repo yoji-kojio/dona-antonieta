@@ -137,6 +137,11 @@ meter {
   letter-spacing: 0.4rem;
 }
 
+.iframe-credit-card {
+  width: 600px;
+  height: 350px;
+}
+
 @keyframes shadows {
   0% {
     text-shadow: none;
